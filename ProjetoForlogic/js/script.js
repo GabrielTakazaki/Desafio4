@@ -15,3 +15,6 @@ function CadastroCliente() {
 function ListarClientes() {
     location.href = "ListarCliente.html"
 }
+function Avaliacao() {
+    location.href = "Avaliacao.html"
+}
