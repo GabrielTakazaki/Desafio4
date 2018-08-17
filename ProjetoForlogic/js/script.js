@@ -12,3 +12,6 @@ firebase.initializeApp(config);
 function CadastroCliente() {
     location.href = "Cliente.html"
 }
+function ListarClientes() {
+    location.href = "ListarCliente.html"
+}
