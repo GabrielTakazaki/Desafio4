@@ -14,29 +14,24 @@
     <h1>Cadastro de Avaliação</h1>
     <div class="col-md-5">
         <form>
-            <div class="form-group">
-                <label for="nomeInput">Nome do Cliente</label>
-                <input type="text" id="nomeInput" class="form-control" placeholder="Razao social ou fantasia" requireds>
-            </div>
-            <div class="form-group">
-                <label for="contatoInput">Nome do Contato</label>
-                <input type="text" id="contatoInput" class="form-control" placeholder="Pessoa responsavel" required>
+            <div class="custom-control custom-checkbox">
+                <label class="custom-control-label" for="boxCheck" id="nomes"></label>
             </div>
             <div class="form-group">
                 <label for="dataInput">Data em que se tornou cliente</label>
-                <input type="month" id="monthInput" class="form-control" >
+                <input type="month" id="monthInput" class="form-control">
             </div>
         </form>
         <button type="submit" class="btn btn-primary" id="cadastroButton">Enviar</button>
     </div>
-    
+
     <a href="index.html">Voltar para o inicio</a>
 
     <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
     <script src="js/script.js"></script>
-    <script src="js/cliente.js"></script>
+    <script src="js/avaliacao.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
-</html> 
+</html>
